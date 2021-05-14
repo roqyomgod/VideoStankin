@@ -15,7 +15,7 @@ namespace VideoStankin
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        //подключился
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
